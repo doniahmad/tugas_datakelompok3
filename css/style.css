@@ -1,0 +1,43 @@
+/* mengatur font pada body hmtl */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* untuk mengatur batas,panjang,tinggi sekaligus align dari class container */
+.container {
+  margin: auto;
+  width: 90%;
+  height: auto;
+  text-align: center;
+}
+
+/* mengatur agar border dari id kelompok memiliki 1 ukuran sekaligus mengatur panjang table menjadi 100% dari parent */
+#kelompok {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* mengatur ukuran border,padding, align teks, ukuran font pada td dan th id kelompok */
+#kelompok td,
+#kelompok th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* mengatur warna teks dan warna background dari th di id kelompok */
+#kelompok th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* mengatur warna background pada posisi genap pada parent */
+#kelompok tr:nth-child(even) {
+  background-color: rgb(240, 238, 238);
+}
+
+img {
+  width: 100px;
+  height: 130px;
+}
